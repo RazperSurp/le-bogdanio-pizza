@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="myAss/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
     <!-- стили текста -->
     <title>le-bogdanio-pizza</title>
+    <link type="image/x-icon" href="slider/logo.ico" rel="shortcut icon">
+    <link type="Image/x-icon" href="slider/logo.ico" rel="icon">
 </head>
 <body>
 
@@ -31,9 +33,8 @@
     </div>
 </header>
 
-
+<div class="pizza">
 <div class="intro">
-
     <div class="container">
         <div class="intro__inner">
           <a class="btn" href="test/quiz.html">Заказать пиццу</a>
@@ -44,6 +45,41 @@
     </div>
 </div>
 
+<!-- слайдер -->
+<div class="all">
+  <input checked type="radio" name="respond" id="desktop">
+    <article id="slider">
+        <input checked type="radio" name="slider" id="switch1">
+        <input type="radio" name="slider" id="switch2">
+        <input type="radio" name="slider" id="switch3">
+        <input type="radio" name="slider" id="switch4">
+        <input type="radio" name="slider" id="switch5">
+      <div id="slides">
+        <div id="overflow">
+          <div class="image">
+            <article><img src="slider/1.jpg"></article>
+            <article><img src="slider/2.jpg"></article>
+            <article><img src="slider/3.jpg"></article>
+            <article><img src="slider/4.jpg"></article>
+            <article><img src="slider/5.jpg"></article>
+          </div>
+        </div>
+      </div>
+      <div id="controls">
+        <label for="switch1"></label>
+        <label for="switch2"></label>
+        <label for="switch3"></label>
+        <label for="switch4"></label>
+        <label for="switch5"></label>
+      </div>
+      <div id="active">
+        <label for="switch1"></label>
+        <label for="switch2"></label>
+        <label for="switch3"></label>
+        <label for="switch4"></label>
+        <label for="switch5"></label>
+      </div>
+    </article>
 
 </body>
 </html>
